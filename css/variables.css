@@ -1,0 +1,138 @@
+
+/* ---------------------------------
+		Variables
+--------------------------------- */
+
+:root {
+  --primary: #6366f1;					/* light purple */
+  --dark: #020617;						/* black */
+  --dark-black: #121212;
+  --light: #b1b1b1;		
+  --regular: #f1f1f1;
+  --regular-white: #ffffff;
+  --bg: #0f172a;        			/* Dark Navy */
+  --text: #e5e7eb;
+  --text-body: #cbd5f5;
+  --primary-txt: #38bdf8;   	/* Soft Blue */
+  --accent: #22c55e;   				/* Green Accent */
+  --primary-blue: #2563eb;
+  --footer-bg: #08112A;
+
+  --text-middle: center;
+
+  --border-black: #555555;
+  --border-white: #0A1128;
+
+  --container-width: 1200px;
+  --transition: 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+	Font Weights – What to Use Where (Very Important)
+	------------------------------------------------------
+
+	Purpose	Font 					Weight
+	-------------					---------------
+
+	Body text (paragraphs)			400 (Regular)
+
+	Slight emphasis					500 (Medium)
+
+	Buttons, nav links				500 / 600
+
+	Sub-headings (H3, H4)			600 (SemiBold)
+
+	Main headings (H1, H2)			700 (Bold)
+
+
+
+
+
+	❌ Avoid ExtraBold / Black for business sites (looks heavy)
+
+
+
+	
+
+	👉 Real-world companies often use LOCAL fonts to:
+	-------------------------------------------------------
+
+		Improve performance
+		Avoid third-party dependency
+		Improve GDPR/privacy compliance
+		Have full control
+	
+
+
+
+
+	✔ As per industry recommendation for your business website:
+	---------------------------------------------------------------
+		Use LOCAL fonts
+	
+
+
+
+
+	Best Fonts for Professional Business Website (Industry Approved)
+	----------------------------------------------------------------------
+		
+		🥇 TOP Choice (Highly Recommended)
+				Inter
+				Used by: Stripe, Notion, GitHub, SaaS products
+
+		🥈 Alternative
+				Poppins (modern, slightly rounded – good for marketing sites)
+				Roboto (classic, Google-style UI)
+
+		👉 I’ll explain using Inter (best for SaaS & business).
+
+		👉 Use .woff2 only (modern & fastest)
+
+		👉 https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap
+
+
+
+
+
+			Fonts
+		---------------------
+			🔹 Inter Regular (400)
+			➡️ https://www.brightskills.citictgms.com/assets/fonts/Inter-Regular.woff2
+
+			🔹 Inter Medium (500)
+			➡️ https://www.brightskills.citictgms.com/assets/fonts/Inter-Medium.woff2
+
+			🔹 Inter SemiBold (600)
+			➡️ https://www.brightskills.citictgms.com/assets/fonts/Inter-SemiBold.woff2
+
+			🔹 Inter Bold (700)
+			➡️ https://www.brightskills.citictgms.com/assets/fonts/Inter-Bold.woff2
+
+*/
+
+
+
+
+
+
+
+
+
+
