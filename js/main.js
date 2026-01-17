@@ -49,6 +49,25 @@
 
 
 /* =================================
+    PAGE SCROLL SMOOTH
+================================= */
+  const links = document.querySelectorAll(".nav-link");
+
+  links.forEach(link => {
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute("href"))       // smooth scroll
+        .scrollIntoView({ behavior: "smooth" });
+
+      links.forEach(l => l.classList.remove("active"));       // remove active from all
+
+      this.classList.add("active");                           // add active to clicked link
+    });
+  });
+
+
+/* =================================
     HERO SLIDER
 ================================= */
   const slides = document.querySelectorAll(".slide");
@@ -282,3 +301,4 @@
 /* ==================================
    END
 ================================== */
+  
